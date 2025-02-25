@@ -1,0 +1,124 @@
+/* Reseteo de estilos para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/*Header */
+header {
+    background-color: black;
+    padding: 20px;
+}
+
+/*H1 en el header */
+header h1 {
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Main */
+main {
+    padding: 20px;
+}
+
+/*  Elementos <p> */
+p {
+    color: rgb(172, 171, 171);
+}
+
+/* Clase .video-container */
+.video-container {
+    display: flex;
+    flex-direction: column;
+    /* Organizamos los elementos en una columna. */
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Clase .download-link-top */
+.download-link-top {
+    color: aquamarine;
+    text-decoration: none;
+    /* Elimina la decoración del texto (subrayado). */
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Video */
+video {
+    width: 300px;
+    height: 400px;
+}
+
+/* Clase .phone-image  y para img */
+.phone-image img {
+    width: 100%;
+    /* Establecemos el ancho del contenedor padre. */
+    max-width: 600px;
+    display: block;
+    /*Se comporte como un elemento de bloque. */
+    margin: 0 auto 20px;
+    /* Centra la imagen horizontalmente y agrega un margen inferior. */
+}
+
+/* Travel-guide */
+.travel-guide {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* H2  y para .travel-guide comparten tamaños */
+.travel-guide h2 {
+    font-size: 42px;
+    font-weight: 300;
+}
+
+/* Estilos para el p dentro de .travel-guide */
+.travel-guide p {
+    font-size: 16px;
+    /* Establece el tamaño de la fuente a 16 píxeles. */
+}
+
+/* app-info */
+.app-info {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Estilos para el p dentro de .app-info */
+.app-info p {
+    font-size: 18px;
+    margin-bottom: 20px;/
+}
+
+/* Estilos  .download-link y para a */
+.download-link a {
+    color: aquamarine;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* .logo img */
+.logo img {
+    width: 50px;
+    display: block;
+    margin: auto;
+}
+
+/* Estilos para el footer */
+footer {
+    text-align: right;
+    /* Alinea el texto a la derecha. */
+    padding: 20px;
+}
